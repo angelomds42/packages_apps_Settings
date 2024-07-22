@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Game Settings -->
+    <string name="game_settings_title">Configurações do jogos</string>
+    <string name="game_settings_summary">Melhore sua experiência em jogos</string>
+
+    <!-- Game Dashboard -->
+    <string name="game_dashboard_title">Painel de jogos</string>
+    <string name="game_dashboard_summary">Gerenciar configurações do Painel de jogos da Google</string>
+</resources>
