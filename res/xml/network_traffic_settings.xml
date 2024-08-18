@@ -19,11 +19,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/network_traffic_settings_title">
 
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+    <com.android.settings.custom.preference.SystemSettingMainSwitchPreference
         android:key="network_traffic_enabled"
-        android:title="@string/network_traffic_settings_title"
-        android:summary="@string/network_traffic_settings_summary"
-        android:defaultValue="false" />
+        android:title="@string/network_traffic_enable_title"
+        android:defaultValue="false"/>
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="network_traffic_autohide"
