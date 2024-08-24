@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localize o sensor de impressão digital na parte de trás do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localize o sensor de impressão digital na parte de trás do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localize o sensor de impressão digital na lateral do seu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localize o sensor de impressão digital na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toque no sensor na parte frontal do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toque no sensor na parte frontal do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Toque no sensor na parte frontal do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toque no sensor na parte de trás do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toque no sensor na parte traseira do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toque no sensor na parte traseira do seu telefone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toque no sensor ao lado do seu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na parte lateral do seu telefone.</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Opções adicionais de vibração</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração em chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar com chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+    <!-- Misc security -->
+    <string name="misc_security_title">Configurações adicionais de segurança</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Permitir retornar para versões anteriores do aplicativo</string>
+    <string name="app_downgrade_summary">Permite retornar a versões anteriores de aplicativos. Pode causar travamentos e corrupção de dados.</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança da janela</string>
+    <string name="ignore_window_secure_summary">Remova as restrições de capturas de tela e registros para todas as aplicações. Pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade. Precisa reiniciar os aplicativos para que a alteração tenha efeito.</string>
+    <!-- Hide screen capture status -->
+    <string name="hide_screen_capture_status_title">Ocultar status de captura de tela</string>
+    <string name="hide_screen_capture_status_summary">Oculte o status de captura de tela e gravação de tela de todos os aplicativos. Pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade. Precisa reiniciar os aplicativos para que a alteração tenha efeito.</string>
+    <!-- No storage restrict -->
+    <string name="no_storage_restrict_title">Sem restrição de armazenamento</string>
+    <string name="no_storage_restrict_summary">Remover a restrição ao selecionar pastas através do Storage Access Framework. Pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade.</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notificação sonora quando a tela está ativada</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibração para notificações quando a tela estiver ativada</string>
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Gerenciar modo Inativo</string>
+    <string name="idle_manager_summary">Parar todos os processos em segundo plano não essenciais quando o dispositivo está inativo</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiado para área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Redefinir estatísticas</string>
+    <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>
+    <!-- Hardware info -->
+    <string name="device_market_name">Nome de mercado</string>
+    <string name="soc_model">Modelo do SoC</string>
+    <string name="total_ram">RAM total</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="selinux_status">Status do SELinux</string>
+    <!-- These statuses are displayed when a device was built with SE Android supoprt.
+    These are displayed by the settings app in the about section. -->
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçado</string>
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configuração USB</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Mostrar ícone 4G</string>
+    <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez LTE</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mostrar ícone de dados desativados</string>
+    <string name="data_disabled_icon_summary">Exibir o ponto de exclamação na barra de sinal quando os dados estiverem desativados</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Mostrar ícone indicador de roaming</string>
+    <string name="roaming_indicator_icon_summary">Exibir o indicador de roaming acima do ícone de sinal quando em modo de roaming</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espaço IME</string>
+    <string name="navigation_bar_ime_space_summary">Espaço sob as opções do teclado</string>
+    <string name="ime_narrow">Estreito</string>
+    <string name="ime_default">Padrão</string>
+    <string name="ime_hidden">Escondido</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps">GPS assistido</string>
+    <string name="assisted_gps_summary">Baixar dados de assistência por satélite através da internet, o que pode melhorar muito o desempenho da inicialização do GPS. Para chamadas de emergência, o GPS assistido é sempre permitido.</string>
+    <!-- Captive portal -->
+    <string name="captive_portal_title">Verificar conectividade</string>
+    <string name="captive_portal_summary">Determine se o dispositivo pode conectar-se à internet, entrando em contato com o Google. Também usado para detectar portais cativos.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informação de rádio</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Preto puro</string>
+    <string name="system_black_theme_summary">Fundo preto puro para tema escuro</string>
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Disponibilidade de otimização da bateria</string>
+    <!-- App search preference -->
+    <string name="search">Pesquisa</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ocultar status do desenvolvedor</string>
+    <string name="hide_developer_status_summary">Impedir que aplicativos verifiquem o status do adb e do modo desenvolvedor</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar os aplicativos a utilizarem a proporção em tela cheia</string>
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">Pular confirmação manual</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Transparência do fundo</string>
+    <string name="qs_transparency_summary">Definir nível de transparência para o fundo das configurações rápidas</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
+    <!-- Advanced Settings -->
+    <string name="advanced_pref_title">Configurações Avançadas</string>
+    <string name="advanced_backup_title">@string/privacy_settings_title</string>
+    <string name="advanced_system_title">@string/header_category_system</string>
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="unlimited_photos_storage_title">Armazenamento ilimitado de Fotos do Google</string>
+    <string name="unlimited_photos_storage_summary">Armazenamento ilimitado para fotos de backup. Os novos recursos do Google Fotos não estarão disponíveis.</string>
+    <!-- Monet boot animation -->
+    <string name="monet_boot_animation_title">Animação de inicialização em cores dinâmicas</string>
+    <string name="monet_boot_animation_summary">Use uma animação de inicialização com tema de cor dinâmica que suporta a aplicação de cores de destaque a partir dos seus papéis de parede.</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som de captura</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Taxa de atualização</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
+    <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
+    <string name="refresh_rate_vrr_summary">Diminuir automaticamente a taxa de atualização quando a tela estiver inativa, para economizar energia. Pode causar perturbação ou mudança de cor em certas telas</string>
+    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
+    <string name="keywords_refresh_rate">atualização, taxa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente a taxa de atualização de 60 a %1$d Hz para alguns conteúdos. Aumenta o uso da bateria.</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Botão de rotação flutuante</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Processos de fundo</string>
+    <!-- WiFi Standard icon -->
+    <string name="wifi_standard_icon_title">Ícone do Wi-Fi padrão</string>
+    <string name="wifi_standard_icon_summary">Exibir ícone do Wi-Fi padrão ao lado do sinal do Wi-Fi</string>
+    <!-- QS Brightness slider haptic feedback -->
+    <string name="qs_brightness_slider_haptic_feedback_title">Vibrar ao alterar o controle deslizante de brilho</string>
+    <!-- QS Tiles haptic -->
+    <string name="qs_tiles_haptic_feedback_title">Vibrar ao tocar as configurações rápidas</string>
+    <!-- Volume slider haptic feedback -->
+    <string name="volume_slider_haptic_feedback_title">Vibrar ao alterar o controle deslizante de volume</string>
+    <!-- Scroll fling haptic feedback -->
+    <string name="scroll_fling_haptic_feedback_title">Vibrar ao rolar a tela</string>
+    <string name="scroll_fling_haptic_feedback_summary">Vibrar ao alcançar as bordas ao rolar com gesto de rolar</string>
+    <!-- Charger haptic feedback -->
+    <string name="charger_haptic_feedback_title">Vibrar ao mudar a conexão do carregador</string>
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Letras na barra de status</string>
+    <string name="status_bar_lyric_summary">Mostrar letras na barra de status (precisa ter suporte pelo aplicativo)</string>
+    <string name="status_bar_show_lyric_title">Mostrar letras na barra de status</string>
+    <string name="status_bar_lyric_options_title">Opções</string>
+    <string name="disguise_props_for_music_app_title">Disfarçar o dispositivo para aplicativos de música</string>
+    <string name="disguise_props_for_music_app_summary">Disfarce o dispositivo em alguns aplicativos de música para suportar o recurso de \"letras na barra de status\". Após alterar, é necessário reiniciar o aplicativo para que a alteração tenha efeito.</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controle de carregamento</string>
+    <string name="charging_control_summary">Personalize o cronograma de carregamento e limites para o seu dispositivo</string>
+    <string name="charging_control_enable_title">Ativar controle de carregamento</string>
+    <string name="charging_control_mode_title">Modo de carregamento</string>
+    <string name="charging_control_mode_auto_title">Programação automática</string>
+    <string name="charging_control_mode_auto_summary">Determinar automaticamente quando iniciar o carregamento com base em alarmes definidos</string>
+    <string name="charging_control_mode_custom_title">Agendamento personalizado</string>
+    <string name="charging_control_mode_custom_summary">Defina um tempo de destino para carga completa</string>
+    <string name="charging_control_mode_limit_title">Limite de carregamento</string>
+    <string name="charging_control_mode_limit_summary">Limitar carga a uma certa porcentagem</string>
+    <string name="charging_control_start_time_title">Horário de início</string>
+    <string name="charging_control_start_time_summary">O controle de carga é ativado quando você começa a carregar após %s</string>
+    <string name="charging_control_target_time_title">Tempo alvo para carga completa</string>
+    <string name="charging_control_target_time_summary">A bateria será totalmente carregada por %s</string>
+    <string name="charging_control_limit_title">Limitar</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Desativar status de criptografia de armazenamento</string>
+    <string name="spoof_storage_encryption_status_summary">Impedir que apps não funcionem devido ao armazenamento não criptografado</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Sem ação</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recentes</string>
+    <string name="action_voice_search">Pesquisa por voz</string>
+    <string name="action_launch_camera">Câmera</string>
+    <string name="action_last_app">Último aplicativo</string>
+    <string name="action_splitscreen">Dividir tela</string>
+    <string name="action_flashlight">Lanterna</string>
+    <string name="action_clear_notifications">Limpar notificações</string>
+    <string name="action_volume_panel">Painel de Volume</string>
+    <string name="action_screen_off">Tela desligada</string>
+    <string name="action_notifications">Notificações</string>
+    <string name="action_power_menu">Menu liga/desliga</string>
+    <string name="action_screenshot">Captura de tela</string>
+    <string name="action_qs_panel">Painel de configurações rápidas</string>
+    <string name="action_app_action">Aplicação</string>
+    <string name="action_ringer_modes">Modos de toque</string>
+    <string name="kill_app">Fechar aplicativo em primeiro plano</string>
+    <string name="recent_app_toggle">Alternar aplicativo recente</string>
+    <string name="show_powermenu">Mostrar menu de energia</string>
+    <string name="partial_screenshot">Captura de tela parcial</string>
+    <string name="action_forward">Ir em frente</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opções avançadas de gestos</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizar gestos e definir ações personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
+    <string name="swipe_app_select_summary">Selecione um aplicativo a ser aberto com a ação apertar</string>
+    <string name="left_swipe_actions_title">Ação do deslize longo à esquerda</string>
+    <string name="left_swipe_app_action_title">Selecionar aplicativo de deslizar para a esquerda</string>
+    <string name="right_swipe_actions_title">Ação do deslize longo à direita</string>
+    <string name="right_swipe_app_action_title">Selecionar aplicativo de deslizar para a direita</string>
+    <string name="left_vertical_swipe_actions_title">Ação de deslize em L para a esquerda na vertical</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar aplicativo vertical para esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Ação de deslize em L para a direita na vertical</string>
+    <string name="right_vertical_swipe_app_action_title">Selecionar aplicativo vertical à direita</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade de aplicativo específica para a ação, mantenha pressionado qualquer aplicativo no seletor de aplicativos.\n\nSe o iniciador estiver sendo exibido, deslize o dedo na parte inferior da tela para acionar a ação.</string>
+    <string name="back_swipe_extended_title">Ação estendida de deslizar</string>
+    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente suficiente)</string>
+    <!-- fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Desativar bloqueio de digital</string>
+    <string name="fingerprint_lockout_summary">Desativa o tempo limite de 30 segundos, bem como o bloqueio permanente após várias tentativas de desbloqueio com impressão digital falhadas</string>
+    <!-- face lockout -->
+    <string name="face_lockout_title">Desativar bloqueio facial</string>
+    <string name="face_lockout_summary">Desativa o tempo limite de 30 segundos, bem como o bloqueio permanente após várias tentativas de desbloqueio facial falhadas</string>
+    <!-- Charging sound -->
+    <string name="charging_sounds_custom_title">Notificação de carregamento</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume do aplicativo</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
+    <!-- Island Notification -->
+    <string name="island_notification_title">Notificação da ilha</string>
+    <string name="island_notification_summary">Mostrar notificações flutuantes no estilo ilha dinâmica</string>
+    <string name="island_notification_footer_text">        O recurso de Ilha Dinâmica foi inspirado no IOS para transformar as notificações padrões do Android em notificações menos invasivas e fáceis de acessar.\n\nAs ilhas dinâmicas também contam com alguns recursos, como:\n1. Tocar sobre a notificação para atender uma chamada.\n2. Tocar e segurar para rejeitar a chamada.\n3. Tocar e segurar para expandir o conteúdo da notificação.    </string>
+    <string name="island_notification_now_playing_title">Escutando agora</string>
+    <string name="island_notification_now_playing_summary">Mostrar mídia atualmente reproduzindo como notificação de ilha</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Tecnologia</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Vida</string>
+    <string name="battery_health_good">Bom</string>
+    <string name="battery_health_overheat">Superaquecido</string>
+    <string name="battery_health_dead">Morto</string>
+    <string name="battery_health_over_voltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Frio</string>
+    <string name="battery_health_unknown">Desconhecido</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatura</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltagem</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Capacidade de construção</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Unlimit screenrecord -->
+    <string name="unlimit_screenrecord_title">Gravação de tela ilimitado</string>
+    <string name="unlimit_screenrecord_summary">Remova o limite de tamanho de arquivo 15GiB\nPode resultar em um arquivo de saída maior que o necessário.</string>
+    <!-- Color mode -->
+    <string name="color_mode_balance_category">Balanceamento de cor</string>
+    <!-- X-Reality Engine -->
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="x_reality_engine_mode_summary">Um modo de exibição adicional do Bravia Engine para melhorar sua experiência de visualização com contraste e cores otimizados.</string>
+    <!-- Wifi Display settings. The title of a menu item to disable mirroring confimration [CHAR LIMIT=40] -->
+    <string name="mirroring_confirmation_disable_menu_item">Desativar confirmação de espelhamento</string>
+</resources>
